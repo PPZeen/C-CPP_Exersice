@@ -9,7 +9,7 @@ int main(){
     printf("Enter your second number: ");
     scanf("%f",&y);
 
-    printf("positive: %f\nnagative: %f\nmultiply: %f\nquotient: %f",x+y,x-y,x*y,x/y);
+    printf("%f %f %f %f",x+y,x-y,x*y,x/y);
 
     return 0;
 }
