@@ -23,7 +23,7 @@ int main(){
         if (_kbhit()){
             ch = _getch();
             if (ch == 'a' && x > 0){draw_ship(--x,y);}
-            if (ch == 'd' && x < 73){draw_ship(++x,y);}
+            if (ch == 'd' && x < 113){draw_ship(++x,y);}
             if (ch == 'w' && y > 0){erase_ship(x,y); draw_ship(x,--y);}
             if (ch == 's' && y < 28){erase_ship(x,y); draw_ship(x,++y);}
             fflush(stdin);
