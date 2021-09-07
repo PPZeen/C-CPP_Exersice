@@ -1,6 +1,6 @@
 #include <iostream>
 #include <windows.h>
-#include<conio.h>
+#include <conio.h>
 using namespace std;
 
 void gotoxy(short x, short y){
